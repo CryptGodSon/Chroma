@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CryptGodSon/Chroma/main/public/favicon.svg" width="64" alt="Chroma logo" />
+<img src="https://raw.githubusercontent.com/CryptGodSon/Chroma/main/public/logo.svg" width="64" alt="Chroma logo" />
 
 # Chroma
 
