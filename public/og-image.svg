@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0C0C0F"/>
+      <stop offset="100%" stop-color="#13131A"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#4F46E5"/>
+      <stop offset="33%"  stop-color="#EC4899"/>
+      <stop offset="66%"  stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="pill1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#F7461A"/>
+    </linearGradient>
+    <linearGradient id="pill2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#C1224F"/>
+      <stop offset="100%" stop-color="#6B21A8"/>
+    </linearGradient>
+    <linearGradient id="pill3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="pill4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#48CAE4"/>
+      <stop offset="100%" stop-color="#ADE8F4"/>
+    </linearGradient>
+    <linearGradient id="pill5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#52B788"/>
+    </linearGradient>
+    <!-- glow behind palette -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4F46E5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- subtle glow blobs -->
+  <ellipse cx="900" cy="320" rx="320" ry="220" fill="#4F46E5" opacity="0.08" filter="url(#blur)"/>
+  <ellipse cx="300" cy="200" rx="200" ry="160" fill="#EC4899" opacity="0.07" filter="url(#blur)"/>
+  <ellipse cx="1050" cy="520" rx="180" ry="140" fill="#10B981" opacity="0.06" filter="url(#blur)"/>
+
+  <!-- grid lines decoration -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- ── LEFT: branding ── -->
+
+  <!-- logo circle -->
+  <circle cx="96" cy="100" r="36" fill="url(#logo)"/>
+
+  <!-- wordmark -->
+  <text x="148" y="114" font-family="'Arial', sans-serif" font-size="52" font-weight="700" fill="white" letter-spacing="-2">Chroma</text>
+
+  <!-- tagline -->
+  <text x="80" y="192" font-family="'Arial', sans-serif" font-size="22" fill="white" opacity="0.5" letter-spacing="0.5">Colors from the real world</text>
+
+  <!-- divider -->
+  <rect x="80" y="228" width="48" height="3" rx="2" fill="url(#logo)"/>
+
+  <!-- headline -->
+  <text x="80" y="306" font-family="'Arial', sans-serif" font-size="40" font-weight="700" fill="white" letter-spacing="-1">Extract color palettes</text>
+  <text x="80" y="356" font-family="'Arial', sans-serif" font-size="40" font-weight="700" fill="white" letter-spacing="-1">from any photo.</text>
+
+  <!-- description -->
+  <text x="80" y="418" font-family="'Arial', sans-serif" font-size="20" fill="white" opacity="0.55">HEX · RGB · HSL · WCAG contrast · CSS export</text>
+
+  <!-- pills / badges -->
+  <rect x="80" y="466" width="148" height="38" rx="19" fill="white" fill-opacity="0.08"/>
+  <text x="154" y="491" text-anchor="middle" font-family="'Arial', sans-serif" font-size="15" fill="white" opacity="0.8">Private by design</text>
+
+  <rect x="244" y="466" width="118" height="38" rx="19" fill="white" fill-opacity="0.08"/>
+  <text x="303" y="491" text-anchor="middle" font-family="'Arial', sans-serif" font-size="15" fill="white" opacity="0.8">No uploads</text>
+
+  <rect x="378" y="466" width="136" height="38" rx="19" fill="white" fill-opacity="0.08"/>
+  <text x="446" y="491" text-anchor="middle" font-family="'Arial', sans-serif" font-size="15" fill="white" opacity="0.8">Free to use</text>
+
+  <!-- ── RIGHT: palette preview card ── -->
+  <rect x="700" y="80" width="440" height="470" rx="24" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- card label -->
+  <text x="724" y="124" font-family="'Arial', sans-serif" font-size="11" font-weight="600" fill="white" opacity="0.35" letter-spacing="2">EXTRACTED PALETTE</text>
+
+  <!-- color strip -->
+  <rect x="724" y="142" width="64" height="64" rx="14" fill="#FF6B35"/>
+  <rect x="798" y="142" width="64" height="64" rx="14" fill="#F7461A"/>
+  <rect x="872" y="142" width="64" height="64" rx="14" fill="#C1224F"/>
+  <rect x="946" y="142" width="64" height="64" rx="14" fill="#6B21A8"/>
+  <rect x="1020" y="142" width="100" height="64" rx="14" fill="#1E1B4B"/>
+
+  <!-- hex labels -->
+  <text x="756" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="white" opacity="0.45">#FF6B35</text>
+  <text x="830" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="white" opacity="0.45">#F7461A</text>
+  <text x="904" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="white" opacity="0.45">#C1224F</text>
+  <text x="978" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="white" opacity="0.45">#6B21A8</text>
+  <text x="1070" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="white" opacity="0.45">#1E1B4B</text>
+
+  <!-- divider in card -->
+  <line x1="724" y1="248" x2="1120" y2="248" stroke="white" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- WCAG section label -->
+  <text x="724" y="280" font-family="'Arial', sans-serif" font-size="11" font-weight="600" fill="white" opacity="0.35" letter-spacing="2">WCAG CONTRAST</text>
+
+  <!-- contrast pair 1 -->
+  <rect x="724" y="295" width="374" height="52" rx="12" fill="white" fill-opacity="0.04"/>
+  <rect x="740" y="311" width="20" height="20" rx="4" fill="#FF6B35"/>
+  <rect x="764" y="311" width="20" height="20" rx="4" fill="#1E1B4B"/>
+  <text x="800" y="326" font-family="'Arial', sans-serif" font-size="14" fill="white" opacity="0.7">Aa</text>
+  <text x="840" y="326" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.5">5.82 : 1</text>
+  <rect x="982" y="307" width="36" height="20" rx="10" fill="#10B981" fill-opacity="0.2"/>
+  <text x="1000" y="322" text-anchor="middle" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#10B981">AA</text>
+  <rect x="1024" y="307" width="42" height="20" rx="10" fill="#10B981" fill-opacity="0.2"/>
+  <text x="1045" y="322" text-anchor="middle" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#10B981">AAA</text>
+
+  <!-- contrast pair 2 -->
+  <rect x="724" y="355" width="374" height="52" rx="12" fill="white" fill-opacity="0.04"/>
+  <rect x="740" y="371" width="20" height="20" rx="4" fill="#C1224F"/>
+  <rect x="764" y="371" width="20" height="20" rx="4" fill="#6B21A8"/>
+  <text x="800" y="386" font-family="'Arial', sans-serif" font-size="14" fill="white" opacity="0.7">Aa</text>
+  <text x="840" y="386" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.5">2.14 : 1</text>
+  <rect x="982" y="367" width="36" height="20" rx="10" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="1000" y="382" text-anchor="middle" font-family="'Arial', sans-serif" font-size="11" font-weight="700" fill="#EF4444">AA</text>
+
+  <!-- code export section -->
+  <rect x="724" y="418" width="374" height="112" rx="12" fill="#0C0C0F"/>
+  <text x="748" y="444" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">:root {</text>
+  <text x="748" y="464" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">  --color-1: </text>
+  <text x="870" y="464" font-family="'Courier New', monospace" font-size="13" fill="#FF6B35">#FF6B35</text>
+  <text x="942" y="464" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">;</text>
+  <text x="748" y="484" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">  --color-2: </text>
+  <text x="870" y="484" font-family="'Courier New', monospace" font-size="13" fill="#C1224F">#C1224F</text>
+  <text x="942" y="484" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">;</text>
+  <text x="748" y="504" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">  --color-3: </text>
+  <text x="870" y="504" font-family="'Courier New', monospace" font-size="13" fill="#6B21A8">#6B21A8</text>
+  <text x="942" y="504" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">;</text>
+  <text x="748" y="520" font-family="'Courier New', monospace" font-size="13" fill="#6B7280">}</text>
+
+  <!-- URL bottom -->
+  <text x="600" y="598" text-anchor="middle" font-family="'Arial', sans-serif" font-size="16" fill="white" opacity="0.25" letter-spacing="1">cryptgodson.github.io/Chroma</text>
+</svg>
